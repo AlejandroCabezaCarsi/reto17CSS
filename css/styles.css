@@ -1,0 +1,64 @@
+.contenedorDeContenedores {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.ordenacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.fila1 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fila2 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fila3 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fila3Columna1 {
+    background-color: aqua;
+    width: 6em;
+    height: 6em;
+
+}
+
+.fila3Columna2 { 
+    background-color: black;
+    width: 6em;
+    height: 6em;
+
+}
+
+.fila3Columna3{ 
+    background-color: red;
+    width: 6em;
+    height: 6em;
+
+}
+
+.fila3Columna4 {
+    background-color: yellow;
+    width: 6em;
+    height: 6em;
+}
